@@ -1,0 +1,72 @@
+/** 
+ * A very basic CSS reset:
+ * More about CSS resets: https://meyerweb.com/eric/tools/css/reset/
+ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/** 
+ * Card sizing and positioning.
+ * Don't mess with this!
+ */
+.card {
+  width: 300px;
+  height: 540px;
+  margin: 40px auto 0 auto;
+}
+
+/** 
+ * Just some styling to make the card visible.
+ * Feel free to change this!
+ */
+
+.card {
+  
+
+  background-color: rgb(140, 222, 136);
+  color: rgb(0, 0, 0);
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.titel{
+  font-family: 'sora', sans-serif;
+  font-size: larger;
+}
+
+.untertitel{
+  font-family: 'sora', sans-serif;
+  font-weight: 300;
+}
+
+.bild{
+  padding-top: 10px;
+  padding-bottom: 8px;
+  align-items: center;
+  width: 100%;
+}
+
+.factcategory{
+  font-family: 'sora', sans-serif;
+  font-weight: 500;
+  font-size: small;
+  padding-top: 4px;
+}
+
+.fact{
+  font-family: 'sora', sans-serif;
+  font-weight: 200;
+  font-size: small;
+  padding-top: 4px;
+}
+
+.factitem{
+  display: flex;
+  justify-content: space-between;
+}
